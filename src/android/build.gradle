@@ -1,10 +1,9 @@
-android {
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8 }
-}
-dependencies {
-     api (name:'mediapickersdk', version:'1.0', ext: 'aar', classifier:'release') {
-        transitive = true;
+repositories {
+    flatDir {
+        dirs 'libs'
     }
+}
+
+dependencies {
+    api name: 'mediapickersdk-1.0-release', ext: 'aar'
 }
