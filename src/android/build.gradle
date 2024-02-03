@@ -4,6 +4,5 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8 }
 }
 dependencies {
-
-     implementation files('libs/mediapicker-release.aar')
+     api name: 'mediapicker-release', ext: 'aar'
 }
