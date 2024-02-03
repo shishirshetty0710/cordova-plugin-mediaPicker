@@ -27,7 +27,9 @@
     <resource-file src="src/android/Library/res/values-tr/multiimagechooser_strings_tr.xml" target="res/values-tr/multiimagechooser_strings_tr.xml"/>
     <resource-file src="src/android/Library/res/values-de/multiimagechooser_strings_de.xml" target="res/values-de/multiimagechooser_strings_de.xml"/>
 
-    
+    <!-- Gradle -->
+       <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
+       <!-- END Gradle -->
   </platform>
 
   <platform name="ios">
