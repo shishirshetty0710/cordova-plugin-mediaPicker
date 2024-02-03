@@ -1,4 +1,5 @@
 repositories {
+    mavenCentral()
     flatDir {
         dirs '../app/src/main/libs'
     }
