@@ -6,5 +6,5 @@ repositories {
 }
 
 dependencies {
-    api name: 'mediapickersdk-release', ext: 'aar'
+    api name: 'mediapicker-release', ext: 'aar'
 }
