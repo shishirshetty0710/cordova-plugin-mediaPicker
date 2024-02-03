@@ -3,16 +3,6 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8 }
 }
-repositories {
-    google()
-    mavenCentral()
-    flatDir {
-        dirs '../app/src/main/libs'
-    }
-    maven {
-    }
-
-}
 dependencies {
 
      implementation files('libs/mediapicker-release.aar')
